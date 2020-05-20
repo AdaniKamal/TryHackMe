@@ -63,12 +63,49 @@ I will be using only [Cyberchef](https://gchq.github.io/CyberChef/)
 
 **Let's make this a bit trickier...**
 
+_____________________________________________________________________________________________________
+
+
 ## [Task 2] Hashing
+
+Tools:
+
+* [Hash Analyzer]( https://www.tunnelsup.com/hash-analyzer/)
+* [md5hasing.net]( https://md5hashing.net/)
+
+### 1. 39d4a2ba07e44421c9bedd54dc4e1182
+
+Decode using md5hasing.net (Online Tools)
+
+![image](https://user-images.githubusercontent.com/44063862/82472420-b5c04680-9afa-11ea-9d51-172d1f1533ef.png)
+
+Output:
+
+![image](https://user-images.githubusercontent.com/44063862/82472424-b8bb3700-9afa-11ea-89a8-97490f463343.png)
+
+**Answer: MDwhat?**
+
+### 2. e0418e7c6c2f630c71b2acabbcf8a2fb
+
+![image](https://user-images.githubusercontent.com/44063862/82472635-12236600-9afb-11ea-9e87-9252ba5bf3b0.png)
+
+**Answer: digest the message algorithm**
+
+### 3. e0418e7c6c2f630c71b2acabbcf8a2fb
+
+![image](https://user-images.githubusercontent.com/44063862/82472888-63cbf080-9afb-11ea-8222-51a55f59008a.png)
+
+**Answer: 128-bit of delicious hash values**
+
+### 4. 11FE61CE0639AC2A1E815D62D7DEEC53
+
+
+
+
+
+
+
 
 
 
 **By _AdaniKamal_**
-
-
-
-
