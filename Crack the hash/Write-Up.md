@@ -76,20 +76,53 @@ Output is MD5. [Hashes]( https://hashes.com/en/decrypt/hash)
 
 ## LEVEL 2
 
-###1
+### 1.	F09EDCB1FCEFC6DFB23DC3505A882655FF77375ED8AA2D1C13F640FCCC2D0C85
+
+[Hash Analyzer](https://www.tunnelsup.com/hash-analyzer/)
+
+![image](https://user-images.githubusercontent.com/44063862/82438345-7b8b8080-9acb-11ea-8470-d29342f4295c.png)
+
+[Hashes]( https://hashes.com/en/decrypt/hash)
+
+![image](https://user-images.githubusercontent.com/44063862/82438349-7d554400-9acb-11ea-9b08-1a13f788a59b.png)
+
+**Answer: paule**
+
+### 2.	1DFECA0C002AE40B8619ECF94819CC1B
+
+[Hash Analyzer](https://www.tunnelsup.com/hash-analyzer/)
+
+![image](https://user-images.githubusercontent.com/44063862/82438466-ad9ce280-9acb-11ea-8133-c7d899832815.png)
+
+[Hashes]( https://hashes.com/en/decrypt/hash)
+
+![image](https://user-images.githubusercontent.com/44063862/82438472-af66a600-9acb-11ea-8ed1-36e24aa88da8.png)
+
+**Answer: n63umy8lkf4i**
+
+### 3.	Hash: $6$aReallyHardSalt$6WKUTqzq.UQQmrm0p/T7MPpMbGNnzXPMAXi4bJMl9be.cfi3/qxIf.hsGpS41BqMhSrHVXgMpdjS6xeKZAs02.
+
+Salt: aReallyHardSalt
+
+```
+hashcat -m 1800 hash.txt rockyou.txt
+```
+
+**Answer: waka99**
+
+### 4.	Hash: e5d8870e5bdd26602cab8dbe07a942c8669e56d6
+
+Salt: tryhackme
+
+[Hash Analyzer](https://www.tunnelsup.com/hash-analyzer/)
+
+![image](https://user-images.githubusercontent.com/44063862/82438697-0bc9c580-9acc-11ea-92c7-792c94de5d6f.png)
+
+```
+hashcat -m 160 hash.txt rockyou.txt
+```
+
+**Answer: 481616481616**
+
 
 **_By AdaniKamal_**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
