@@ -4,7 +4,7 @@
 
 ![image](https://user-images.githubusercontent.com/44063862/82412111-9c40df80-9aa5-11ea-9caa-ab82757c9a1f.png)
 
-BY the given encoded, we know that this is **BASE 16** VEhNe2p1NTdfZDNjMGQzXzdoM19iNDUzfQ==
+BY the given encoded, we know that this is **BASE 64** VEhNe2p1NTdfZDNjMGQzXzdoM19iNDUzfQ==
 
 So, heat up our "oven" [CyberChef](https://gchq.github.io/CyberChef/)
 
