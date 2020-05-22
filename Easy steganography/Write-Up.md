@@ -13,17 +13,23 @@ It is quite hard because I do not know the flag structure. I search for THM, Try
 
 I Binwalk this image and get that there is an image inside it.
 
-> Binwalk flag2.jpeg
+```
+Binwalk flag2.jpeg
+```
 
 ![image](https://user-images.githubusercontent.com/44063862/82633226-26678000-9c2d-11ea-88b1-0fd8263e8169.png)
 
 So, I try to extract it.
 
->Binwalk -e flag2.jpeg
+```
+Binwalk -e flag2.jpeg
+```
 
 But, it failed. Erm… 
 
-> binwalk --dd '.*' flag2.jpeg
+```
+binwalk --dd '.*' flag2.jpeg
+```
 
 ![image](https://user-images.githubusercontent.com/44063862/82633236-31221500-9c2d-11ea-93dc-e3b78373a15c.png)
 
@@ -35,7 +41,9 @@ It get extracted by flag --dd . There is a picture. Open it.
 
 ## 3.	Flag3.jpeg
 
->Exiftool flag3.jpeg
+```
+exiftool flag3.jpeg
+```
 
 ![image](https://user-images.githubusercontent.com/44063862/82633284-50b93d80-9c2d-11ea-84cd-1d1baccc80b6.png)
 
@@ -47,7 +55,9 @@ I try steghide, but 3rr0r. Hmmm. Try submit “Math” as flag. BINGO!
 
 ## 4.	Flag4.jpeg
 
-> binwalk --dd '.*' flag3.jpeg
+```
+binwalk --dd '.*' flag3.jpeg
+```
 
 ![image](https://user-images.githubusercontent.com/44063862/82633307-5c0c6900-9c2d-11ea-9079-7a139b70ae22.png)
 
