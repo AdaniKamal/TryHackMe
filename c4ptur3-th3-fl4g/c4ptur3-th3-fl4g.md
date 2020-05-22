@@ -153,15 +153,15 @@ We try online tools to decode it. [Steganographic Decoder](https://futureboy.us/
 
 OR
 
-'''
+```
 steghide extract -sf stegosteg.jpg
-'''
+```
 
 ![image](https://user-images.githubusercontent.com/44063862/82640783-c3cab000-9c3d-11ea-8c30-a67710178084.png)
 
-'''
+```
 cat stegosteg.jpg
-'''
+```
 
 ![image](https://user-images.githubusercontent.com/44063862/82640787-c5947380-9c3d-11ea-9b77-02db5d2afc67.png)
 
@@ -183,9 +183,9 @@ Given a png file. I strings the file. And get this
 ### 2.	Get inside the archive and inspect the file carefully. Find the hidden text.
 It say to go inside the archive.
 
-'''
+```
 binwalk -e meme.jpg
-'''
+```
 
 And there is an archive file. Extract and strings the image.
 
