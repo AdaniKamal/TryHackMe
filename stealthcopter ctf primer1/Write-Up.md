@@ -35,9 +35,9 @@ I try run using online tools. http://www.writephponline.com/
 
 But it did not display anything.
 
-![image](https://user-images.githubusercontent.com/44063862/82668296-086d4000-9c6c-11ea-86e5-f397dbc0ec9e.png)
-
 I try to delete // (Comment). Ta-Da!
+
+![image](https://user-images.githubusercontent.com/44063862/82668296-086d4000-9c6c-11ea-86e5-f397dbc0ec9e.png)
 
 **FLAG{php_is_a_b4d_l4ngu4g3}**
 
