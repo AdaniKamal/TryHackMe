@@ -44,11 +44,12 @@ I try to delete // (Comment). Ta-Da!
 ## Flag 5
 Run the script in kali and do the test.
 
-So, it is a brute force. So, I entered one by one number 1-9. 
-
 ![image](https://user-images.githubusercontent.com/44063862/82668324-158a2f00-9c6c-11ea-829d-a88b4b92193e.png)
 
+So, it is a brute force. So, I entered one by one number 1-9. 
+
 BINGO!
+
 ```
 php w.05.php ‘key=7’
 ```
