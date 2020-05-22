@@ -1,4 +1,6 @@
 ```
+hashcat -m 16500 jwt.txt rockyou.txt 
+
 hashcat (v5.1.0) starting...
 
 OpenCL Platform #1: The pocl project
