@@ -16,8 +16,6 @@ Just as before, I opened the source code. I see js file there.
 
 ![image](https://user-images.githubusercontent.com/44063862/82668184-d0fe9380-9c6b-11ea-8120-0679e7720fbe.png)
 
-Opened it.
-
 ## Flag 3
 View source code.
 
