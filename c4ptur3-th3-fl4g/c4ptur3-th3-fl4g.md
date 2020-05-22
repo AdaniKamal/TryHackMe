@@ -170,7 +170,7 @@ cat stegosteg.jpg
 _____________________________________________________________________________________________________
 
 
-## [Task 4] Security through obscurity
+## [Task 5] Security through obscurity
 
 ### 1.	Download and get 'inside' the file. What is the first filename & extension?
 
