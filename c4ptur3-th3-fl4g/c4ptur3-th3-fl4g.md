@@ -99,12 +99,101 @@ Output:
 
 ### 4. 11FE61CE0639AC2A1E815D62D7DEEC53
 
+Based on hint given it is, “SoftMicro”. Which refer to Microsoft NTLM Hashes.
+
+**Answer: Microsoft has encryption?**
+
+### 5. a361f05487b879f25cc4d7d7fae3c7442e7849ed15c94010b389faafaf8763f0dd022e52364027283d55dcb10974b09e7937f901584c092da65a14d1aa8dc4d8
+
+Check the hash.
+
+![image](https://user-images.githubusercontent.com/44063862/82640452-338c6b00-9c3d-11ea-91f5-377ec8774988.png)
+
+[md5hashing](https://md5hashing.net/hash/sha512
+
+![image](https://user-images.githubusercontent.com/44063862/82640461-36875b80-9c3d-11ea-80f6-010557478baa.png)
+
+**Answer: 1024 bit blocks!**
+
+### 6. d48a2f790f7294a4ecbac10b99a1a4271cdc67fff7246a314297f2bca2aaa71f
+
+![image](https://user-images.githubusercontent.com/44063862/82640531-5880de00-9c3d-11ea-8891-46d6e0592a6c.png)
+
+![image](https://user-images.githubusercontent.com/44063862/82640535-5ae33800-9c3d-11ea-87a0-6b054d741737.png)
+
+**Answer: Commonly used in Blockchain**
+
+### 7. a34e50c78f67d3ec5d0479cde1406c6f82ff6cd0
+
+![image](https://user-images.githubusercontent.com/44063862/82640607-777f7000-9c3d-11ea-9189-fd77365801d5.png)
+
+![image](https://user-images.githubusercontent.com/44063862/82640615-79493380-9c3d-11ea-97a9-b05486a60e44.png)
+
+**Answer: The OG**
+_____________________________________________________________________________________________________
 
 
+## [Task 3] Spectogram
+
+Challenge give us an audio. Secretaudio.wav. I decide to use Audacity. Spectogram. Ta-Da!
+
+![image](https://user-images.githubusercontent.com/44063862/82640684-98e05c00-9c3d-11ea-8954-2704dd405e5e.png)
+
+**Answer: Super Secret Message**
+_____________________________________________________________________________________________________
 
 
+## [Task 4] Steganography
+
+![image](https://user-images.githubusercontent.com/44063862/82640744-b3b2d080-9c3d-11ea-9a4b-4e260b451cac.png)
+
+We try online tools to decode it. [Steganographic Decoder](https://futureboy.us/stegano/decinput.html)
+
+![image](https://user-images.githubusercontent.com/44063862/82640778-c200ec80-9c3d-11ea-8e1b-268b0de1a6de.png)
+
+OR
+
+'''
+steghide extract -sf stegosteg.jpg
+'''
+
+![image](https://user-images.githubusercontent.com/44063862/82640783-c3cab000-9c3d-11ea-8c30-a67710178084.png)
+
+'''
+cat stegosteg.jpg
+'''
+
+![image](https://user-images.githubusercontent.com/44063862/82640787-c5947380-9c3d-11ea-9b77-02db5d2afc67.png)
+
+**Answer: SpaghettiSteg**
+
+_____________________________________________________________________________________________________
 
 
+## [Task 4] Security through obscurity
+
+### 1.	Download and get 'inside' the file. What is the first filename & extension?
+
+Given a png file. I strings the file. And get this
+
+![image](https://user-images.githubusercontent.com/44063862/82640929-1015f000-9c3e-11ea-8c2d-67002faed730.png)
+
+**Answer: hackerchat.png**
+
+### 2.	Get inside the archive and inspect the file carefully. Find the hidden text.
+It say to go inside the archive.
+
+'''
+binwalk -e meme.jpg
+'''
+
+And there is an archive file. Extract and strings the image.
+
+![image](https://user-images.githubusercontent.com/44063862/82640935-11471d00-9c3e-11ea-9af4-ce98830764cd.png)
+
+Ps: I no need to Binwalk it.
+
+**Answer: AHH_YOU_FOUND_ME!**
 
 
 
