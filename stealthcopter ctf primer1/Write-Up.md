@@ -1,4 +1,6 @@
-> hashcat (v5.1.0) starting...
+```
+hashcat (v5.1.0) starting...
+
 OpenCL Platform #1: The pocl project
 ====================================
 * Device #1: pthread-Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz, 512/1488 MB allocatable, 4MCU
@@ -47,3 +49,5 @@ Candidates.#1....: 123456 -> oooooo
 
 Started: Fri May 22 07:13:48 2020
 Stopped: Fri May 22 07:14:02 2020
+```
+
