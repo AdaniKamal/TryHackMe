@@ -12,9 +12,9 @@ Search for this
 
 ![image](https://user-images.githubusercontent.com/44063862/82645057-dd232a80-9c44-11ea-8ae9-19a6d2b4dca8.png)
 
-*[Blog](https://oliverwoodflint.wordpress.com/author/owoodflint/)
-*[Github](https://twitter.com/owoodflint?lang=en)
-*[Twitter](https://github.com/OWoodfl1nt/people_finder)
+* [Blog](https://oliverwoodflint.wordpress.com/author/owoodflint/)
+* [Github](https://twitter.com/owoodflint?lang=en)
+* [Twitter](https://github.com/OWoodfl1nt/people_finder)
 
 You will found 3 related to that name. “User avatar” make me opened twitter. 
 
