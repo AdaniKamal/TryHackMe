@@ -50,7 +50,7 @@ So, it is a brute force. So, I entered one by one number 1-9.
 
 BINGO!
 ```
-Php w.05.php ‘key=7’
+php w.05.php ‘key=7’
 ```
 
 ![image](https://user-images.githubusercontent.com/44063862/82668341-1f139700-9c6c-11ea-996a-44a9f7c046e9.png)
@@ -94,8 +94,6 @@ hashcat --force -m 16500 jwt.txt rockyou.txt
 OUTPUT: 
 
 ```
-hashcat -m 16500 jwt.txt rockyou.txt 
-
 hashcat (v5.1.0) starting...
 
 OpenCL Platform #1: The pocl project
