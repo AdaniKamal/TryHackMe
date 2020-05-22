@@ -1,3 +1,100 @@
+# stealthcopter ctf primer1
+
+## Flag 1
+
+![image](https://user-images.githubusercontent.com/44063862/82668145-baf0d300-9c6b-11ea-939f-935a0e89360b.png)
+
+Check Source Code
+
+![image](https://user-images.githubusercontent.com/44063862/82668153-bdebc380-9c6b-11ea-9d99-abc99f58832d.png)
+
+**FLAG{check_the_comments_lol}**
+
+## Flag 2
+
+Just as before, I opened the source code. I see js file there.
+
+![image](https://user-images.githubusercontent.com/44063862/82668184-d0fe9380-9c6b-11ea-8120-0679e7720fbe.png)
+
+Opened it.
+
+## Flag 3
+View source code.
+
+And I see code "Base64" Copy to the Cyber Chef.
+
+![image](https://user-images.githubusercontent.com/44063862/82668245-effd2580-9c6b-11ea-8206-912a970448eb.png)
+
+**FLAG{h4ck_t1m3}**
+
+## Flag 4
+
+Open the given php w.o4.php
+
+![image](https://user-images.githubusercontent.com/44063862/82668276-fe4b4180-9c6b-11ea-9b98-d1ca906b967e.png)
+
+I try run using online tools. http://www.writephponline.com/
+
+But it did not display anything.
+
+![image](https://user-images.githubusercontent.com/44063862/82668296-086d4000-9c6c-11ea-86e5-f397dbc0ec9e.png)
+
+I try to delete // (Comment). Ta-Da!
+
+**FLAG{php_is_a_b4d_l4ngu4g3}**
+
+## Flag 5
+Run the script in kali and do the test.
+
+So, it is a brute force. So, I entered one by one number 1-9. 
+
+![image](https://user-images.githubusercontent.com/44063862/82668324-158a2f00-9c6c-11ea-829d-a88b4b92193e.png)
+
+BINGO!
+```
+Php w.05.php ‘key=7’
+```
+
+![image](https://user-images.githubusercontent.com/44063862/82668341-1f139700-9c6c-11ea-996a-44a9f7c046e9.png)
+
+**FLAG{n0t_s0_t0ugh}**
+
+## FLAG 6
+
+## FLAG 7
+
+## FLAG 8
+
+Open the JWT
+
+> eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIzNCwidXNlcm5hbWUiOiJhZG1pbiIsInBhc3N3b3JkIjoiRkxBR3tqd3RfdDBrM25zX2FyM19jMDBsX2IzNG56fSJ9.gNVX4fCIMvjLYZ0jUY0untMYbPmRNNFzZwXyU01bv-M
+
+Search for JWT, and fount this website.
+
+https://www.jsonwebtoken.io/
+
+![image](https://user-images.githubusercontent.com/44063862/82668404-41a5b000-9c6c-11ea-9cd1-e9839d334047.png)
+
+**FLAG{jwt_t0k3ns_ar3_c00l_b34nz}**
+
+## FLAG 9
+> eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMzNywidXNlcm5hbWUiOiJhZG1pbiIsImhpbnQiOiJ0aGUgZmxhZyBpcyBGTEFHe3h4eHh4eHhfZDFjdDEwbjRyeV80dHQ0Y2t9IHdoZXJlIHh4eHh4eHggaXMgdGhlIHBhc3N3b3JkIHVzZWQgdG8gc2lnbiB0aGlzIHRva2VuIn0.dWwXygXbxXud7WVBBVNwBZwUXjsxUhwMmN8rFnRyVgE
+
+Use same tools as before.
+
+https://www.jsonwebtoken.io/
+
+![image](https://user-images.githubusercontent.com/44063862/82668445-57b37080-9c6c-11ea-84ec-b06ebe452145.png)
+
+FLAG{xxxxxxx_d1ct10n4ry_4tt4ck}
+
+Hint: Password to sign this hash. So, we try Hashcat.
+```
+hashcat --force -m 16500 jwt.txt rockyou.txt
+```
+
+OUTPUT: 
+
 ```
 hashcat -m 16500 jwt.txt rockyou.txt 
 
@@ -52,4 +149,13 @@ Candidates.#1....: 123456 -> oooooo
 Started: Fri May 22 07:13:48 2020
 Stopped: Fri May 22 07:14:02 2020
 ```
+![image](https://user-images.githubusercontent.com/44063862/82668450-5a15ca80-9c6c-11ea-9473-0e7c6bf28e1d.png)
 
+Rockyou
+
+**FLAG{rockyou_d1ct10n4ry_4tt4ck}**
+
+## FLAG 10
+__________________________________________________________________________________________________________
+
+**By _AdaniKamal_**
