@@ -10,7 +10,11 @@
 **Enumeration**
 * Directory Bruteforce using dirbuster & Gobuster
 
+**Exploitation**
+* Steganography (HxD, Steghide)
+
 **Privilege Escalation**
+* pkexec
 
 **Capturing the flag**
 * user.txt
