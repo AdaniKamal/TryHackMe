@@ -1,6 +1,8 @@
 # Day3 - Evil Elf
 
-## Q1 - Go straight to no. 998 and take the dest IP.
+## Q1 
+
+* Go straight to no. 998 and take the dest IP.
 
 ## Q2 
 
