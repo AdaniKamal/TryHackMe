@@ -1,6 +1,6 @@
 # [Day 5] Ho-Ho-Hosint
 
-# Q1 - 	What is Lola's date of birth?
+## Q1 - 	What is Lola's date of birth?
 
 * Exiftool the image
 
@@ -43,15 +43,15 @@ Megapixels                      : 0.275
 
 ![image](https://user-images.githubusercontent.com/44063862/83957226-ce6d8200-a898-11ea-9ef7-04c0d4335f53.png)
 
-# Q2 - 	What is Lola's current occupation?
+## Q2 - 	What is Lola's current occupation?
 
 * Refer the twitter account
 
-# Q3 - What phone does Lola make?
+## Q3 - What phone does Lola make?
 
 * Refer the twitter account
 
-# Q4 - 	What date did Lola first start her photography?
+## Q4 - 	What date did Lola first start her photography?
 
 WayBackMachine is a digital archive of the World Wide Web. It takes a snapshot of a website and saves it for us to view in the future.
 
@@ -59,7 +59,7 @@ We gonna use Wayback Machine with the worpress blog that Lola tag at her Twitter
 
 [Wayback Machine](https://web.archive.org/web/20191023204639/https://lolajohnson1998.wordpress.com/)
 
-# Q5
+## Q5 - What famous woman does Lola have on her web page?
 
 * https://lolajohnson1998.wordpress.com/
 * Search picture of the only woman in Lola's blog.
