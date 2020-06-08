@@ -83,5 +83,28 @@ dirbuster
 ssh *****@10.10.177.100
 ```
 
+```
+ls -al
+```
+
+Oops, there is root.txt. But we can't opened it. 
+
+![image](https://user-images.githubusercontent.com/44063862/84032573-222bb880-a9ca-11ea-8456-353bb295ee8e.png)
+
+Here, where the hint is really useful. 
+
+![image](https://user-images.githubusercontent.com/44063862/84032644-3cfe2d00-a9ca-11ea-9ccb-96fd7a6e660f.png)
+
+okay the, we try a usual place for root.txt.
+
+```
+cat /root/user.txt
+```
+
+![image](https://user-images.githubusercontent.com/44063862/84033048-db8a8e00-a9ca-11ea-9b79-797f088fc9d7.png)
+
+Well, that was an easy guess I think.
+
+Now, the root flag.
 
 **By _Adanikamal_**
