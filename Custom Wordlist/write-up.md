@@ -36,8 +36,18 @@ john flag2hash --wordlist=contains_uppercase.txt
 
 ### Get flag 3 - Password Requirements: 10 length minimum, Uppercase, Special Characters
 
+For this questions, it is need many steps.
+
+* First, we will find a 10 lenght word from our Uppercase file (from Challangge 2)
+
 ```
-cat /usr/share/wordlists/rockyou.txt | grep -x ‘.\{10,20\}’ > 10-20_length_wordlist
+cat contains_uppercase.txt | grep -x '.\{10,20\}' > 10-20_length_wordlist
+```
+
+* Now, step is the same, but now againts the above file.
+
+```
+cat 10-20_length_wordlist | grep -v “^[A-Za-z0-9]*$” > contains_special.txt
 ```
 
 ```
@@ -45,7 +55,7 @@ zip2john flag3.txt.zip > flag3hash
 ```
 
 ```
-john flag3hash --wordlist=10-20_length_wordlist
+john flag3hash --wordlist=contains_special.txt
 ```
 
 **By _AdaniKamal_**
