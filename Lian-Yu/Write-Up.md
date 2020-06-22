@@ -8,32 +8,30 @@
 * nmap
 
 **Enumeration**
-* Directory Bruteforce using dirbuster & Gobuster
+* Read source code to get another directory
 
 **Exploitation**
-* Steganography (HxD, Steghide)
+* SQL Injection - Login Page
+* Command Injection
 
 **Privilege Escalation**
-* pkexec
+* sudo python
 
 **Capturing the flag**
-* user.txt
-* root.txt
+* /root/root.txt
 _______________________________________________________________________________________________________
 
 ## Walkthrough
 
 ```
-nmap -A 10.10.24.60
+nmap <ip>
 ```
 
-![image](https://user-images.githubusercontent.com/44063862/83028953-ae51ed80-a064-11ea-86fe-77fc16022f07.png)
 
-From the nmap scanning. I found that 4 port open. Which is
-* 21 (ftp)
+
+From the nmap scanning. I found that 2 port open. Which is
 * 22 (ssh)
 * 80 (http)
-* 111 (rpc)
 
 I browse the given IP address.
 
