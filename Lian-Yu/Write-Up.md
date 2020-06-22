@@ -1,6 +1,4 @@
-# Lian-Yu
-
-![image](https://user-images.githubusercontent.com/44063862/83029328-27e9db80-a065-11ea-9c26-76f31a87b355.png)
+# Live Machine
 
 ## Penetration Testing Methodology
 
