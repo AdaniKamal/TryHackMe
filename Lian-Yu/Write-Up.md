@@ -29,9 +29,11 @@ nmap -A 10.10.24.60
 
 ![image](https://user-images.githubusercontent.com/44063862/85245613-baba4200-b47a-11ea-8e23-7cda437d5fcd.png)
 
-From the nmap scanning. I found that 2 port open. Which is
+From the nmap scanning. I found that 4 port open. Which is
+* 21 (ftp) 
 * 22 (ssh)
 * 80 (http)
+* 111 (rpc)
 
 I browse the given IP address.
 
