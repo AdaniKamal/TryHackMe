@@ -1,4 +1,6 @@
-# Live Machine
+# Lian-Yu
+
+![image](https://user-images.githubusercontent.com/44063862/85245837-66fc2880-b47b-11ea-988f-5f55a1052fc2.png)
 
 ## Penetration Testing Methodology
 
@@ -6,26 +8,26 @@
 * nmap
 
 **Enumeration**
-* Read source code to get another directory
+* Directory enumeration using gobuster and dirbuster
 
 **Exploitation**
-* SQL Injection - Login Page
-* Command Injection
+* steghide
 
 **Privilege Escalation**
-* sudo python
+* pkexec
 
 **Capturing the flag**
-* /root/root.txt
+* user.txt
+* root.txt
 _______________________________________________________________________________________________________
 
 ## Walkthrough
 
 ```
-nmap <ip>
+nmap -A 10.10.24.60
 ```
 
-
+![image](https://user-images.githubusercontent.com/44063862/85245613-baba4200-b47a-11ea-8e23-7cda437d5fcd.png)
 
 From the nmap scanning. I found that 2 port open. Which is
 * 22 (ssh)
