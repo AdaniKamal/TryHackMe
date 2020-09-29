@@ -27,7 +27,7 @@ ________________________________________________________________________________
 nmap -sC -sV 10.10.231.227
 ```
 
-![image](https://user-images.githubusercontent.com/44063862/85245613-baba4200-b47a-11ea-8e23-7cda437d5fcd.png)
+![image](https://user-images.githubusercontent.com/44063862/94507849-375f7800-0243-11eb-81ef-82e0e449c84c.png)
 
 From the nmap scanning. I found that 2 port open. Which is
 * 22 (ssh)
