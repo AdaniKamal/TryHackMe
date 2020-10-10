@@ -45,6 +45,7 @@ http://10.10.95.82:PORT/ctf/sendcookie
 Set:
 * cookie with name "flagpls"
 * value "flagpls" 
+* then refresh
 
 ![image](https://user-images.githubusercontent.com/44063862/95646864-22b29800-0aff-11eb-8c2c-48389c86f6f0.png)
 
