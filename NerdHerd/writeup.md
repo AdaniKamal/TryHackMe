@@ -1,18 +1,21 @@
 # NerdHerd
 
 ## :link: Link 
-[Bolt]()
+[NerdHerd]()
 
 ## Penetration Testing Methodology
 
 **Reconnaissance**
 * nmap
 
+**Scanning**
+* gobster
+
 **Exploitation**
-*
+* gcc
 
 **Capturing the flag**
-* 
+* root.txt
 _______________________________________________________________________________________________________
 
 ## Walkthrough
