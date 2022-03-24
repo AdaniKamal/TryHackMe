@@ -1,15 +1,15 @@
-John The Ripper
+# John The Ripper
 
-Task 4 Cracking Basic Hashes
-Task 5 Cracking Windows Authentication Hashes
+## Task 4 Cracking Basic Hashes
+## Task 5 Cracking Windows Authentication Hashes
 
 Use:
 https://www.tunnelsup.com/hash-analyzer/
 https://crackstation.net/
 
-Task 6 Cracking /etc/shadow Hashes
+## Task 6 Cracking /etc/shadow Hashes
 
-Unshadowing process
+**Unshadowing process**
 
 unshadow [path to passwd] [path to shadow]
 
@@ -21,5 +21,5 @@ john --wordlist=/usr/share/wordlists/rockyou.txt --format=sha512crypt etchashes.
 
 ![image](https://user-images.githubusercontent.com/44063862/159829261-05f0ccc2-2a2b-49a6-9ae1-b6ca008d6ecb.png)
 
-Task 7 Single Crack Mode
+## Task 7 Single Crack Mode
 
