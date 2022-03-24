@@ -1,11 +1,20 @@
 # John The Ripper
 
 ### Task 4 Cracking Basic Hashes
+
+Use:
+```
+https://www.tunnelsup.com/hash-analyzer/
+https://crackstation.net/
+```
+
 ### Task 5 Cracking Windows Authentication Hashes
 
 Use:
+```
 https://www.tunnelsup.com/hash-analyzer/
 https://crackstation.net/
+```
 
 ### Task 6 Cracking /etc/shadow Hashes
 
