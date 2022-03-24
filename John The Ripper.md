@@ -64,8 +64,13 @@ Use **rar2john** to convert the rar file into a hash format (John lang)
 
 ![image](https://user-images.githubusercontent.com/44063862/159835172-06070867-5792-4246-8bcd-0a6579745205.png)
 
+> unrar e secure.rar
 
+![image](https://user-images.githubusercontent.com/44063862/159836368-c1d5be3c-da33-4ada-9634-bdf75359d85b.png)
 
+> cat flag.txt
+
+![image](https://user-images.githubusercontent.com/44063862/159836336-a3da5af9-32c4-48d0-a506-e8faee78c6d2.png)
 
 
 
