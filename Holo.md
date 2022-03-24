@@ -39,7 +39,7 @@ This network simulates an external penetration test on a corporate network "Holo
 
 --------------------------------------------------------------------------
 
-![image](https://user-images.githubusercontent.com/44063862/159893603-084d9238-7114-40a4-b15f-135bfab3d193.png)
+![image](https://user-images.githubusercontent.com/44063862/159894920-c042b377-e566-49e5-85cb-e1c5f69c1c32.png)
 
 
 
