@@ -77,7 +77,9 @@ Use **rar2john** to convert the rar file into a hash format (John lang)
 Use **SSH2John** converts the id_rsa private key that you use to login to the SSH session into hash format
 
 > python ssh2john.py idrsa.id_rsa > id_rsa_hash.txt 
+
 > john --wordlist=/usr/share/wordlists/rockyou.txt id_rsa_hash.txt
+
 ![image](https://user-images.githubusercontent.com/44063862/159837388-f08889e4-30a2-49d3-9f80-e1c0b47ca0b2.png)
 
 
