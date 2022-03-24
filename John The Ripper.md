@@ -41,12 +41,15 @@ https://crackstation.net/
 > zip2john secure.zip > zip_hash.txt
 
 > john --wordlist=/usr/share/wordlists/rockyou.txt zip_hash.txt
+
 ![image](https://user-images.githubusercontent.com/44063862/159833276-e0a0563f-a392-4704-bcd3-d43c749072cc.png)
 
 > unzip secure.zip 
+
 ![image](https://user-images.githubusercontent.com/44063862/159833502-4ed3b0e5-7cb9-44e5-991a-0ce0b61e7c76.png)
 
 > cat zippy/flag.txt 
+
 ![image](https://user-images.githubusercontent.com/44063862/159833546-44104598-e237-4262-91d2-76977ebe9d58.png)
 
 
