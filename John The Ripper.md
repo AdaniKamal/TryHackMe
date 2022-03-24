@@ -38,6 +38,8 @@ https://crackstation.net/
 
 ### Task 9 Cracking Password Protected Zip Files
 
+Use **Zip2John** to convert the zip file into a hash format (John lang)
+
 > zip2john secure.zip > zip_hash.txt
 
 > john --wordlist=/usr/share/wordlists/rockyou.txt zip_hash.txt
@@ -51,6 +53,20 @@ https://crackstation.net/
 > cat zippy/flag.txt 
 
 ![image](https://user-images.githubusercontent.com/44063862/159833546-44104598-e237-4262-91d2-76977ebe9d58.png)
+
+### Task 10 Cracking Password Protected RAR Archives
+
+Use **rar2john** to convert the rar file into a hash format (John lang)
+
+> rar2john secure.rar > rar_hash.txt
+
+> john --wordlist=/usr/share/wordlists/rockyou.txt rar_hash.txt
+
+![image](https://user-images.githubusercontent.com/44063862/159835172-06070867-5792-4246-8bcd-0a6579745205.png)
+
+
+
+
 
 
 
