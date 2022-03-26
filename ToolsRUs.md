@@ -16,14 +16,13 @@ IP: 10.10.154.123
 * hydra
 
 **Exploitation**
-*
+* Apache Tomcat
 
 **Privilege Escalation**
-*
+* Apache Tomcat/Coyote JSP engine 1.1
 
 **Capture-the-flag**
-* user.txt
-* root.txt
+* flag.txt
 
 ----------------------------------------------------------------
 ### Walkthrough
