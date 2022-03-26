@@ -25,5 +25,15 @@ IP: 10.10.154.123
 ----------------------------------------------------------------
 ### Walkthrough
 
-> nmap -p- -A 10.10.154.123
+> nmap -A -v 10.10.154.123
 
+![image](https://user-images.githubusercontent.com/44063862/160220987-1488e56b-495e-432b-b918-d18d0210edca.png)
+
+From the nmap scanning. I found that 4 port open. Which is
+
+* 22 (ssh)
+* 80 (http)
+* 1234 (http)
+* 8009 (ajp13)
+
+> 
