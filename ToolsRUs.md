@@ -66,6 +66,10 @@ http://10.10.154.123:1234/
 
 Apache Tomcat/7.0.88
 
+> nikto -h http://10.10.154.123:1234/manager/html -id "bob:bubbles"
+
+![image](https://user-images.githubusercontent.com/44063862/160223405-6eaee543-0680-44bc-893d-763dceb2001b.png)
+
 > nikto -h http://10.10.154.123/
 
 ![image](https://user-images.githubusercontent.com/44063862/160222653-dbc23994-9476-41de-bf8c-0b5a74ce12ad.png)
